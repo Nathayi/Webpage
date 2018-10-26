@@ -9,7 +9,7 @@
 baseurl = "/"
 
 # Title of your site
-title = "Academic"
+title = "Nathalie Ayi"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -52,23 +52,23 @@ enableGitInfo = false
 
   # Your details.
   name = "Nathalie Ayi"
-  role = "Professor of Artificial Intelligence"
+  role = "Associate Professor"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Sorbonne University", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
-  keybase = ""  # Your keybase.io username.
+  email = "nathalie.ayi@sorbonne-universite.fr"
+address = "Campus Jussieu - Bâtiment 16-26 Bureau 301, 15 Rue des Fossés Saint-Bernard, 75005 Paris "
+# office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "01 44 27 37 72"
+#skype = "echo123"
+# telegram = ""
+# keybase = ""  # Your keybase.io username.
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -89,17 +89,17 @@ enableGitInfo = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 0
+  map = 1
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = "48.855138"
+  longitude = "2.353677"
   zoom = 15
 
   # SITE SETUP
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "default"
+  color_theme = "ocean"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -112,7 +112,7 @@ enableGitInfo = false
   sharing_image = ""
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
-  twitter = ""
+  # twitter = ""
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -247,29 +247,29 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "mailto:test@example.org"
+    link = "mailto:nathalie.ayi@sorbonne-universite.fr"
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fab"
-    link = "//twitter.com/GeorgeCushen"
+# [[params.social]]
+#   icon = "twitter"
+#   icon_pack = "fab"
+#   link = "//twitter.com/GeorgeCushen"
 
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+#[[params.social]]
+#   icon = "google-scholar"
+#   icon_pack = "ai"
+#   link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "//github.com/gcushen"
+    link = "//github.com/Nathayi"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # [[params.social]]
-  #   icon = "cv"
-  #   icon_pack = "ai"
-  #   link = "files/cv.pdf"
+   [[params.social]]
+     icon = "cv"
+     icon_pack = "ai"
+     link = "files/cv.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -306,10 +306,10 @@ enableGitInfo = false
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[menu.main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 7
+ [[menu.main]]
+    name = "CV"
+    url = "files/cv.pdf"
+    weight = 7
 
 # Search.
 [params.search]
