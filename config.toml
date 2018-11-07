@@ -6,7 +6,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://www.ljll.math.upmc.fr/~ayi/"
 
 # Title of your site
 title = "Nathalie Ayi"
@@ -63,7 +63,7 @@ enableGitInfo = false
 
   # Details for the Contact Widget
   email = "nathalie.ayi@sorbonne-universite.fr"
-address = "Campus Jussieu - Bâtiment 16-26 Bureau 301, 15 Rue des Fossés Saint-Bernard, 75005 Paris "
+address = "Campus Jussieu - Bâtiment 16-26 Bureau 301 <br> 15 Rue des Fossés Saint Bernard <br>75005 Paris "
 # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "01 44 27 37 72"
 #skype = "echo123"
@@ -290,14 +290,19 @@ address = "Campus Jussieu - Bâtiment 16-26 Bureau 301, 15 Rue des Fossés Sai
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
+name = "Teaching"
+url = "#teaching"
+weight = 3
 
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
+#[[menu.main]]
+# name = "Posts"
+# url = "#posts"
+# weight = 3
+
+#[[menu.main]]
+# name = "Projects"
+#  url = "#projects"
+# weight = 4
 
 [[menu.main]]
   name = "Contact"
