@@ -6,7 +6,7 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://www.ljll.math.upmc.fr/~ayi/"
 
 # Title of your site
 title = "Nathalie Ayi"
@@ -89,7 +89,7 @@ address = "Campus Jussieu - Bâtiment 16-26 Bureau 301 <br> 15 Rue des Fossés
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 1
+  map = 2
   map_api_key = ""
   latitude = "48.855138"
   longitude = "2.353677"

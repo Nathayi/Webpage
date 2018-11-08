@@ -11,6 +11,7 @@ weight = 5
 [interests]
   interests = [
     "Partial differential equations",
+     "Stochastic partial differential equations",
     "Kinetic theory",
     "Diffusion limits",
     "Hydrodynamical limits", 
