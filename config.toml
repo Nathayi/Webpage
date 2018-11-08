@@ -294,6 +294,16 @@ name = "Teaching"
 url = "#teaching"
 weight = 3
 
+[[menu.main]]
+name = "Talks"
+url = "#talks"
+weight = 3
+
+[[menu.main]]
+name = "Thesis"
+url = "#thesis"
+weight = 3
+
 #[[menu.main]]
 # name = "Posts"
 # url = "#posts"
